@@ -1,0 +1,11 @@
+<?xml version="1.0"?> <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.demo.model.Author" table="Auth123">
+		<id name="id">
+			<generator class="increment" />
+		</id>
+		<property name="name" length="30" />
+		<property name="age" />
+		<property name="zipcode" />
+	</class>
+</hibernate-mapping>
